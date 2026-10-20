@@ -1,0 +1,19 @@
+{
+  "Create Bounding Boxes (4A)": {
+    "display_name": "Create Bounding Boxes",
+    "description": "Draw bounding boxes in a canvas. Outputs Ideogram prompt elements, pixel-space bounding boxes, and a preview image.",
+    "inputs": {
+      "background": {"name": "background", "tooltip": "Optional image used as background in the canvas and preview."},
+      "bboxes": {"name": "bboxes", "tooltip": "Bounding boxes, elements, or a JSON string to initialize the canvas. A new upstream value initializes the canvas; edits made on the canvas take priority and are kept until the upstream value changes again."},
+      "width": {"name": "width", "tooltip": "Width of the canvas and the pixel grid for the bounding boxes."},
+      "height": {"name": "height", "tooltip": "Height of the canvas and the pixel grid for the bounding boxes."},
+      "editor_state": {"name": "editor_state", "tooltip": "Draw bounding boxes and set each box type, text, description, color palette. Start with background element first and foreground last."},
+      "last_incoming": {"name": "last_incoming", "tooltip": "Internal state managed by the canvas: the upstream bboxes value that last initialized it."}
+    },
+    "outputs": {
+      "0": {"name": "preview"},
+      "1": {"name": "bboxes"},
+      "2": {"name": "elements"}
+    }
+  }
+}

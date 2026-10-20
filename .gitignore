@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.cursor/
+.venv/
+.vscode/
+.idea/

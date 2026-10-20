@@ -1,0 +1,24 @@
+[project]
+name = "4a-bounding-boxes"
+version = "0.1.0"
+description = "Create Bounding Boxes editor (same behaviour as ComfyUI's built-in node) that works in the classic LiteGraph renderer."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [
+    { name = "Tsukino4A" },
+]
+dependencies = []
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Repository = "https://github.com/tsukino4a/ComfyUI-4A-BoundingBoxes"
+Documentation = "https://github.com/tsukino4a/ComfyUI-4A-BoundingBoxes#readme"
+"Bug Tracker" = "https://github.com/tsukino4a/ComfyUI-4A-BoundingBoxes/issues"
+
+[tool.comfy]
+PublisherId = "tsukino4a"
+DisplayName = "4A Bounding Boxes"

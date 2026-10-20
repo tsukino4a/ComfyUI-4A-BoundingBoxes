@@ -1,0 +1,19 @@
+{
+  "Create Bounding Boxes (4A)": {
+    "display_name": "创建边界框",
+    "description": "在画布上绘制边界框。输出 Ideogram 提示元素、像素空间边界框和预览图像。",
+    "inputs": {
+      "background": {"name": "背景", "tooltip": "在画布和预览中用作背景的可选图像。"},
+      "bboxes": {"name": "bboxes", "tooltip": "用于初始化画布的边界框、元素或 JSON 字符串。新的上游值会初始化画布；在画布上的编辑优先生效，并会一直保留，直到上游值再次变化。"},
+      "width": {"name": "宽度", "tooltip": "画布及边界框像素网格的宽度。"},
+      "height": {"name": "高度", "tooltip": "画布及边界框像素网格的高度。"},
+      "editor_state": {"name": "编辑器状态", "tooltip": "绘制边界框并设置每个框的类型、文本、描述、色板。先添加背景元素，最后添加前景元素。"},
+      "last_incoming": {"name": "last_incoming", "tooltip": "由画布管理的内部状态：上次用于初始化画布的上游 bboxes 值。"}
+    },
+    "outputs": {
+      "0": {"name": "预览"},
+      "1": {"name": "边界框"},
+      "2": {"name": "元素"}
+    }
+  }
+}
