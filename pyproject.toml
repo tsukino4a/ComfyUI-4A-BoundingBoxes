@@ -1,6 +1,6 @@
 [project]
 name = "4a-bounding-boxes"
-version = "0.1.0"
+version = "1.0.0"
 description = "Create Bounding Boxes editor (same behaviour as ComfyUI's built-in node) that works in the classic LiteGraph renderer."
 readme = "README.md"
 license = { file = "LICENSE" }
